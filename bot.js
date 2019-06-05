@@ -27,8 +27,8 @@ const sql = require("sqlite");
 ,spee={};
 
 client.on("message", message => {
-	var prefix = "+";
- if (message.content === "+1help") {
+	var prefix = "+2";
+ if (message.content === "+2help") {
 	 message.channel.send('Check Your DM’s');
   const embed = new Discord.RichEmbed() 
       .setColor("#000000")
@@ -50,7 +50,7 @@ ${prefix}queue ~ لمعرفة قآئمة التشغيل
    }); 
 
 
-   const prefix = "+1"
+   const prefix = "+2"
    client.on('message', async msg => { 
        if (msg.author.bot) return undefined;
        if (!msg.content.startsWith(prefix)) return undefined;

@@ -244,7 +244,7 @@ ${prefix}queue ~ لمعرفة قآئمة التشغيل
     console.log(`Users : [ " ${client.users.size} " ]`);
     console.log(`Channels : [ " ${client.channels.size} " ]`);
     console.log('By : '+`${client.users.get("315576870437650433").username}`)
-     client.user.setActivity("Hype Clan | +1help",{type: 'WATCHING'})
+     client.user.setActivity("Hype Clan | +2help",{type: 'WATCHING'})
      client.user.setStatus("dnd")
   });
 

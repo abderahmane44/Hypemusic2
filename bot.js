@@ -29,7 +29,7 @@ const sql = require("sqlite");
 client.on("message", message => {
 	var prefix = "+2";
  if (message.content === "+2help") {
-	 message.channel.send('Check Your DM’s');
+	 message.channel.send('Check Yo5r DM’s');
   const embed = new Discord.RichEmbed() 
       .setColor("#000000")
       .setDescription(`
